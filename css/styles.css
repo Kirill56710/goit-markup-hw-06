@@ -802,6 +802,7 @@ header {
 .modal-textarea:focus {
   border: 1px solid#2196f3;
   outline: none;
+  color: #000000;
 }
 .modal-input {
   width: 100%;
