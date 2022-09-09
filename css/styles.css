@@ -9,8 +9,8 @@
   --color-accent: #2196f3;
   --color-logo: #000000;
   --color-hover: #188ce8;
-  --font-main: 'Roboto', sans-serif;
-  --font-logo: 'Raleway', sans-serif;
+  --font-main: "Roboto", sans-serif;
+  --font-logo: "Raleway", sans-serif;
 }
 html {
   box-sizing: border-box;
@@ -45,7 +45,7 @@ ul {
   text-decoration: none;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-text-title);
   background-color: var(--color-background-primary);
   font-size: 14px;
@@ -98,7 +98,7 @@ header {
 .site-link {
   position: relative;
   color: var(--color-text-title);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   font-style: medium;
@@ -115,7 +115,7 @@ header {
 
 .curent::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   bottom: 0;
   width: 100%;
@@ -137,7 +137,7 @@ header {
 
 .site-link::after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   bottom: 0;
   display: block;
@@ -151,7 +151,7 @@ header {
 
 .auto-link {
   color: var(--color-p);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -169,7 +169,7 @@ header {
   color: #2196f3;
 }
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -206,14 +206,18 @@ header {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../image/fon.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   color: #ffffff;
   font-size: 44px;
@@ -234,7 +238,7 @@ header {
   min-width: 200px;
   border: 0;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.9;
   text-align: Center;
@@ -272,7 +276,7 @@ header {
   line-height: 1.71;
 }
 .subject-first {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: var(--color-text-title);
   letter-spacing: 0.03em;
@@ -330,8 +334,8 @@ header {
 }
 .emploer-item {
   background: #ffffff;
-  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .emploer-div {
@@ -401,7 +405,8 @@ header {
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .partners-item {
@@ -431,7 +436,7 @@ header {
 }
 .map {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
@@ -446,7 +451,7 @@ header {
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-style: medium;
@@ -468,7 +473,7 @@ header {
 
 .footer-tect {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -524,7 +529,7 @@ header {
 }
 .footer-input-text {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -550,7 +555,7 @@ header {
   color: #ffffff;
   border: 0;
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   cursor: pointer;
   font-size: 16px;
@@ -576,6 +581,9 @@ header {
   height: 24px;
   margin-left: 10px;
 }
+.footer-input-div {
+  margin-left: 950px;
+}
 
 /*Портфолио кнопки*/
 
@@ -593,7 +601,7 @@ header {
   color: #212121;
   border: 0;
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   cursor: pointer;
   font-size: 16px;
@@ -628,7 +636,7 @@ header {
   gap: 30px;
 }
 .subject-second {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: var(--color-text-title);
   letter-spacing: 0.03em;
@@ -657,7 +665,7 @@ header {
   overflow: hidden;
 }
 .portfolio-overlay {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   background-color: rgba(33, 150, 243, 0.9);
@@ -673,7 +681,7 @@ header {
   transform: translateY(0%);
 }
 .portfolio-p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #ffffff;
   letter-spacing: 0.03em;
@@ -731,6 +739,7 @@ header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  padding: 40px;
 }
 .modal-close-button {
   position: absolute;
@@ -758,16 +767,91 @@ header {
   fill: #2196f3;
 }
 .modal-p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #212121;
   letter-spacing: 0.03em;
   font-size: 20px;
   line-height: 1.17;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.modal-lebel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #757575;
+  letter-spacing: 0.01em;
+  font-size: 12px;
+  line-height: 1.16;
+}
+.modal-textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #757575;
+  letter-spacing: 0.01em;
+  font-size: 12px;
+  line-height: 1.16;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 .modal-input {
-  width: 448px;
+  width: 100%;
   height: 40px;
-  margin-top: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  margin-top: 4px;
+  margin-bottom: 10px;
+  padding-left: 42px;
+}
+.modal-checkbox {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.modal-a {
+  color: #2196f3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.modal-span {
+  display: block;
+  position: relative;
+}
+.modal-svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+}
+.button-modal {
+  display: inline-block;
+  background: var(--color-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--color-background-primary);
+  min-width: 200px;
+  height: 50px;
+  border: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.9;
+  text-align: Center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: backgraund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 30px;
+  margin-left: 110px;
+}
+.button-modal:hover,
+.button-modal:focus {
+  background-color: var(--color-hover);
 }
