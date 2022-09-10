@@ -498,7 +498,7 @@ header {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    bacbackground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-border:hover,
 .footer-border:focus {
@@ -523,6 +523,7 @@ header {
 }
 
 .footer-input-div {
+  margin-left: auto;
 }
 .footer-input-form {
   display: flex;
@@ -562,7 +563,7 @@ header {
   line-height: 1.9;
   letter-spacing: 0.06em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    bacbackground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
@@ -581,10 +582,6 @@ header {
   height: 24px;
   margin-left: 10px;
 }
-.footer-input-div {
-  margin-left: 950px;
-}
-
 /*Портфолио кнопки*/
 
 .more-buttons {
@@ -608,7 +605,7 @@ header {
   line-height: 1.6;
   letter-spacing: 0.03em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    bacbackground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button2:hover,
 .button2:focus {
@@ -775,13 +772,19 @@ header {
   text-align: center;
   margin-bottom: 12px;
 }
-.modal-lebel {
+.modal-label {
+  display: block;
+  margin-bottom: 10px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #757575;
   letter-spacing: 0.01em;
   font-size: 12px;
   line-height: 1.16;
+}
+.modal-label-textarea {
+  display: block;
+  margin-bottom: 20px;
 }
 .modal-textarea {
   width: 100%;
@@ -797,7 +800,6 @@ header {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 15px;
   resize: none;
-  margin-bottom: 20px;
 }
 .modal-textarea:focus {
   border: 1px solid#2196f3;
@@ -809,7 +811,6 @@ header {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-top: 4px;
-  margin-bottom: 10px;
   padding-left: 42px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -844,22 +845,22 @@ header {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:focus + .modal-svg {
   fill: #2196f3;
 }
 .button-modal {
-  display: inline-block;
+  display: block;
   background: var(--color-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--color-background-primary);
   min-width: 200px;
-  height: 50px;
   border: 0;
+  height: 50px;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -868,8 +869,8 @@ header {
   letter-spacing: 0.06em;
   cursor: pointer;
   transition: backgraund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
   margin-top: 30px;
-  margin-left: 110px;
 }
 .button-modal:hover,
 .button-modal:focus {
